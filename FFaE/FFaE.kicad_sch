@@ -1,0 +1,193 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "aa3b89a1-f9e5-4532-935a-0db76e43367b")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 97.79 88.9)
+		(size 39.37 12.7)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "315d7ad6-2fea-4e1c-9b00-c7181c7522c0")
+		(property "Sheetname" "Echo"
+			(at 113.03 97.282 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+					(thickness 0.508)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "echo.kicad_sch"
+			(at 97.79 137.7446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "Output" output
+			(at 137.16 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6a6a5032-ca12-4e5a-af9e-13dbae8e3bbf")
+		)
+		(pin "Input" input
+			(at 97.79 95.25 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2ce341f5-e12b-4419-aca8-95c3c45c742d")
+		)
+		(instances
+			(project "FFaE"
+				(path "/aa3b89a1-f9e5-4532-935a-0db76e43367b"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 97.79 44.45)
+		(size 39.37 24.13)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c852a9b4-2321-46ef-a935-4a5c9a0b8681")
+		(property "Sheetname" "Power management"
+			(at 98.298 50.038 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+					(thickness 0.508)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pow.kicad_sch"
+			(at 97.79 69.1646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "POW-" input
+			(at 97.79 60.96 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d66b71db-9844-44f3-99cd-50b5b44e550d")
+		)
+		(pin "POW+" input
+			(at 97.79 55.88 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a663e0ba-c288-4333-a672-8a689c6bf6e1")
+		)
+		(instances
+			(project "FFaE"
+				(path "/aa3b89a1-f9e5-4532-935a-0db76e43367b"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 97.79 72.39)
+		(size 39.37 12.7)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e1933313-1d6e-4a08-82a1-b82dd98874aa")
+		(property "Sheetname" "Fuzz"
+			(at 113.03 79.756 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+					(thickness 0.508)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "fuzz.kicad_sch"
+			(at 97.79 85.6746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "Input" input
+			(at 97.79 78.74 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2718691d-eaea-4f85-85f2-d187836f2168")
+		)
+		(pin "Output" output
+			(at 137.16 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e7e08442-8569-4077-a95b-5aaf4205fadc")
+		)
+		(instances
+			(project "FFaE"
+				(path "/aa3b89a1-f9e5-4532-935a-0db76e43367b"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
