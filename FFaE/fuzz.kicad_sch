@@ -2482,15 +2482,15 @@
 	(symbol
 		(lib_id "Device:R_Potentiometer")
 		(at 149.86 93.98 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a7a98882-d2a4-4173-a76a-ea32827ab97d")
 		(property "Reference" "RV1"
-			(at 147.32 92.7099 0)
+			(at 147.32 95.2501 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2499,7 +2499,7 @@
 			)
 		)
 		(property "Value" "B50K"
-			(at 147.32 95.2499 0)
+			(at 147.32 92.7101 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2507,7 +2507,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Vishay_148-149_Single_Horizontal"
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
 			(at 149.86 93.98 0)
 			(effects
 				(font

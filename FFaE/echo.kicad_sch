@@ -3426,7 +3426,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Vishay_148-149_Single_Horizontal"
+		(property "Footprint" "Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical"
 			(at 207.01 90.17 0)
 			(effects
 				(font
@@ -4753,13 +4753,13 @@
 	)
 	(symbol
 		(lib_id "Device:R_Potentiometer")
-		(at 73.66 101.6 90)
+		(at 73.66 101.6 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a1ebb5b9-f5ae-4f89-a86d-f34391665a5e")
 		(property "Reference" "RV2"
 			(at 73.66 105.41 90)
@@ -4777,7 +4777,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Vishay_148-149_Single_Horizontal"
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
 			(at 73.66 101.6 0)
 			(effects
 				(font

@@ -189,6 +189,7 @@
       ],
       "track_widths": [
         0.0,
+        0.4,
         0.6,
         1.0
       ],
@@ -457,6 +458,7 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -632,11 +634,11 @@
     ],
     [
       "ab626481-f43b-467d-b906-365e93f434c6",
-      "Input buffer 1"
+      "Input Buffer"
     ],
     [
       "3069d9db-2aa5-4683-af61-1afacbc55172",
-      "Input buffer 2"
+      "Output Buffer"
     ]
   ],
   "text_variables": {}
